@@ -6,7 +6,7 @@ const router = express.Router();
 
 const { Link, linkValidator } = require("../models/Link");
 
-const clientMessage = require("../utils/clientMessage");
+const clientMessage = require("../../utils/clientMessage");
 
 router.post("/short", (req, res) => {
   if (!linkValidator(req.body)) {
