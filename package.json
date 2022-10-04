@@ -12,6 +12,10 @@
     "server": "nodemon server",
     "dev": "concurrently --kill-other-on-fail\"nodemon server\"\"npm run start --prefix client\""
   },
+  "engines": {
+    "node": "16.13.0",
+    "npm": "8.6.0"
+  },
   "keywords": [],
   "author": "Fresnel AGLOSSI && Fadel ABOU && Evans DJOUSSOUVI",
   "license": "ISC",
