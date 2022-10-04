@@ -6,7 +6,7 @@ import { toast, ToastContainer } from "react-toastify";
 const UrlShortener = (props) => {
   let host = "";
   process.env.NODE_ENV === "production"
-    ? (host = "https://urlShorter.heroku.app/")
+    ? (host = "https://urlshorter.heroku.app/")
     : (host = "http://localhost:3000/");
   const [done, setDone] = useState(false);
   const [shortUrl, setShortUrl] = useState("");
