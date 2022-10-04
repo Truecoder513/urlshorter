@@ -1,0 +1,29 @@
+:root {
+  --space-cadet: #2b2d42ff;
+  --manatee: rgb(116, 125, 142);
+  --cultured: rgba(0, 0, 0, 0.765);
+  --imperial-red: #ef233cff;
+  --amaranth-red: #d90429ff;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  outline: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+button {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
