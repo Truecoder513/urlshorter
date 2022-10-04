@@ -13,7 +13,7 @@
     "dev": "concurrently --kill-other-on-fail\"nodemon server\"\"npm run start --prefix client\""
   },
   "keywords": [],
-  "author": "",
+  "author": "Fresnel AGLOSSI && Fadel ABOU && Evans DJOUSSOUVI",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.0",
