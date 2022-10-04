@@ -7,7 +7,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 axios.defaults.baseURL =
   process.env.NODE_ENV === "production"
-    ? "https://urlshorter.heroku.app/"
+    ? "https://dminish.heroku.app/"
     : "http://localhost:5000/";
 axios.defaults.headers = { "X-Custom-Header": "fresnel" };
 root.render(

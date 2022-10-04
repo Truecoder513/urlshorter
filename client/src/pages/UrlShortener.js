@@ -6,7 +6,7 @@ import { toast, ToastContainer } from "react-toastify";
 const UrlShortener = (props) => {
   let host = "";
   process.env.NODE_ENV === "production"
-    ? (host = "https://urlshorter.heroku.app/")
+    ? (host = "https://dminish.heroku.app/")
     : (host = "http://localhost:3000/");
   const [done, setDone] = useState(false);
   const [shortUrl, setShortUrl] = useState("");
@@ -61,7 +61,7 @@ const UrlShortener = (props) => {
         <img src={require("../img/tyr.jpg")} alt="" />
       </div>
       <div className="short">
-        <h1>Url Shortener</h1>
+        <h1>Url Diminisher</h1>
         <p className="desc">
           Un lien court est un puissant outil de marketing lorsque vous
           l'utilisez avec précaution. Ce n'est pas seulement un lien mais un
